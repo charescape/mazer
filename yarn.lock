@@ -3004,10 +3004,10 @@ jsonfile@^6.0.1:
   optionalDependencies:
     graceful-fs "^4.1.6"
 
-jsvectormap@^1.5.1:
-  version "1.5.1"
-  resolved "https://registry.yarnpkg.com/jsvectormap/-/jsvectormap-1.5.1.tgz#1f4afc0136e33d40c5426259ebabe4b589463419"
-  integrity sha512-Ic2O8df/gPir2tJI+tcfWuzXNE6lI4GjBiRstBEDJx7yWIqzuJn8t3+1+/M3Ug8BCxBHhRMVPeMGLFh04al93w==
+jsvectormap@^1.5.3:
+  version "1.5.3"
+  resolved "https://registry.yarnpkg.com/jsvectormap/-/jsvectormap-1.5.3.tgz#224c2b1879a8b3a94f88438aaf99dc7ff025be70"
+  integrity sha512-HStTEhZEVr8t3t6juApO603nr1y54K/wjcdOvgGtvpE1etZ9Isg/sLdqh7OX4+RJ8srdP7WiBoTV/93aMqhLhw==
 
 keyv@^4.5.2:
   version "4.5.2"
