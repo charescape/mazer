@@ -1,3 +1,4 @@
+/.idea/
 /vscode
 .DS_Store
 /node_modules
@@ -10,4 +11,3 @@ dist.zip
 !.yarn/releases
 !.yarn/plugins
 .pnp.*
-dist/*
