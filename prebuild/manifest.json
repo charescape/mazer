@@ -15,6 +15,16 @@
     "file": "assets/compiled/css/application-email.css",
     "src": "application-email.css"
   },
+  "application-email.html": {
+    "css": [
+      "assets/compiled/css/application-email.css",
+      "assets/compiled/css/app.css",
+      "assets/compiled/css/app-dark.css"
+    ],
+    "file": "assets/compiled/js/application-email.js",
+    "isEntry": true,
+    "src": "application-email.html"
+  },
   "assets/static/fonts/Iconly---Bold.eot": {
     "file": "assets/compiled/eot/Iconly---Bold.eot",
     "src": "assets/static/fonts/Iconly---Bold.eot"
@@ -219,6 +229,16 @@
     "file": "assets/compiled/css/form-editor-summernote.css",
     "src": "form-editor-summernote.css"
   },
+  "form-editor-summernote.html": {
+    "css": [
+      "assets/compiled/css/form-editor-summernote.css",
+      "assets/compiled/css/app.css",
+      "assets/compiled/css/app-dark.css"
+    ],
+    "file": "assets/compiled/js/form-editor-summernote.js",
+    "isEntry": true,
+    "src": "form-editor-summernote.html"
+  },
   "iconly.css": {
     "file": "assets/compiled/css/iconly.css",
     "src": "iconly.css"
@@ -227,20 +247,70 @@
     "file": "assets/compiled/css/table-datatable-jquery.css",
     "src": "table-datatable-jquery.css"
   },
+  "table-datatable-jquery.html": {
+    "css": [
+      "assets/compiled/css/table-datatable-jquery.css",
+      "assets/compiled/css/app.css",
+      "assets/compiled/css/app-dark.css"
+    ],
+    "file": "assets/compiled/js/table-datatable-jquery.js",
+    "isEntry": true,
+    "src": "table-datatable-jquery.html"
+  },
   "table-datatable.css": {
     "file": "assets/compiled/css/table-datatable.css",
     "src": "table-datatable.css"
+  },
+  "table-datatable.html": {
+    "css": [
+      "assets/compiled/css/table-datatable.css",
+      "assets/compiled/css/app.css",
+      "assets/compiled/css/app-dark.css"
+    ],
+    "file": "assets/compiled/js/table-datatable.js",
+    "isEntry": true,
+    "src": "table-datatable.html"
   },
   "ui-icons-dripicons.css": {
     "file": "assets/compiled/css/ui-icons-dripicons.css",
     "src": "ui-icons-dripicons.css"
   },
+  "ui-icons-dripicons.html": {
+    "css": [
+      "assets/compiled/css/ui-icons-dripicons.css",
+      "assets/compiled/css/app.css",
+      "assets/compiled/css/app-dark.css"
+    ],
+    "file": "assets/compiled/js/ui-icons-dripicons.js",
+    "isEntry": true,
+    "src": "ui-icons-dripicons.html"
+  },
   "ui-widgets-chatbox.css": {
     "file": "assets/compiled/css/ui-widgets-chatbox.css",
     "src": "ui-widgets-chatbox.css"
   },
+  "ui-widgets-chatbox.html": {
+    "css": [
+      "assets/compiled/css/ui-widgets-chatbox.css",
+      "assets/compiled/css/app.css",
+      "assets/compiled/css/app-dark.css"
+    ],
+    "file": "assets/compiled/js/ui-widgets-chatbox.js",
+    "isEntry": true,
+    "src": "ui-widgets-chatbox.html"
+  },
   "ui-widgets-todolist.css": {
     "file": "assets/compiled/css/ui-widgets-todolist.css",
     "src": "ui-widgets-todolist.css"
+  },
+  "ui-widgets-todolist.html": {
+    "css": [
+      "assets/compiled/css/ui-widgets-todolist.css",
+      "assets/compiled/css/app.css",
+      "assets/compiled/css/app-dark.css"
+    ],
+    "file": "assets/compiled/js/ui-widgets-todolist.js",
+    "isEntry": true,
+    "src": "ui-widgets-todolist.html"
   }
 }
