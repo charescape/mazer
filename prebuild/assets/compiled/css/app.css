@@ -16093,7 +16093,7 @@ body .bi::before, [class^=bi-]::before, [class*=" bi-"]::before {
   font-weight: bold;
 }
 .alert-success {
-  background-color: #1fb141;
+  background-color: #1fb142;
   color: #fff;
 }
 .alert-success a {
