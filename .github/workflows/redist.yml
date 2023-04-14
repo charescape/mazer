@@ -11,7 +11,7 @@ on:
 
 jobs:
   npm-run-dist:
-    if: "!contains(github.event.head_commit.message, 'skip ci')"
+    if: "!contains(github.head_ref, 'dependabot')"
 
     runs-on: ubuntu-latest
 
@@ -29,8 +29,14 @@ jobs:
 
       - run: npm ci
 
-      - run: npm run dist
+      - run: npm run prebuild
 
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: redist
+          commit_message: "npm run prebuild"
+
+      - run: npm run build
+
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "npm run build"
