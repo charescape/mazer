@@ -5,6 +5,8 @@
 
 /dist/
 /dist.zip
+/prebuild/
+/prebuild.zip
 
 .yarn/*
 !.yarn/releases
