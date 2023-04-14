@@ -6,6 +6,9 @@
 /dist.zip
 /prebuild.zip
 
+/dist/assets/extensions/
+/prebuild/assets/extensions/
+
 .yarn/*
 !.yarn/releases
 !.yarn/plugins
