@@ -1,5 +1,5 @@
 {
-  "name": "mazer",
+  "name": "@charescape/mazer-fork",
   "version": "2.1.0",
   "description": "Free and Open-source Bootstrap 5 Admin Dashboard Template and Landing Page",
   "scripts": {
@@ -31,6 +31,12 @@
   "sponsor": {
     "url": "https://github.com/sponsors/zuramai"
   },
+  "files": [
+    "prebuild/**/*",
+    "!prebuild/assets/extensions/*",
+    "dist/**/*",
+    "!dist/assets/extensions/*"
+  ],
   "dependencies": {
     "@ckeditor/ckeditor5-build-classic": "^32.0.0",
     "@fontsource/nunito": "^4.5.11",
