@@ -29,6 +29,8 @@ jobs:
 
       - run: npm run prebuild
 
+      - run: rm -rf prebuild/assets/extensions/
+
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: "npm run prebuild"
@@ -52,6 +54,8 @@ jobs:
       - run: npm ci
 
       - run: npm run build
+
+      - run: rm -rf dist/assets/extensions/
 
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
