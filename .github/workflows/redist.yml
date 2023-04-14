@@ -51,6 +51,8 @@ jobs:
 
       - run: git status
 
+      - run: git pull --verbose
+
       - run: npm ci
 
       - run: rm -rf dist/
