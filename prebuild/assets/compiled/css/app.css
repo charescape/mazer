@@ -151,7 +151,7 @@
   --bs-dark-rgb: 19, 19, 19;
   --bs-white-rgb: 255, 255, 255;
   --bs-black-rgb: 0, 0, 0;
-  --bs-body-color-rgb: 96, 112, 128;
+  --bs-body-color-rgb: 69, 75, 84;
   --bs-body-bg-rgb: 242, 247, 255;
   --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
@@ -160,7 +160,7 @@
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
-  --bs-body-color: #607080;
+  --bs-body-color: #454b54;
   --bs-body-bg: #f2f7ff;
   --bs-border-width: 1px;
   --bs-border-style: solid;
@@ -211,7 +211,7 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   margin-bottom: 0.5rem;
   font-weight: 700;
   line-height: 1.2;
-  color: #25396f;
+  color: #454b54;
 }
 h1, .h1 {
   font-size: calc(1.375rem + 1.5vw);
@@ -1710,15 +1710,15 @@ progress {
   }
 }
 .table, .dataTable-table {
-  --bs-table-color: #607080;
+  --bs-table-color: #454b54;
   --bs-table-bg: transparent;
   --bs-table-border-color: #eee;
   --bs-table-accent-bg: transparent;
-  --bs-table-striped-color: #607080;
+  --bs-table-striped-color: #454b54;
   --bs-table-striped-bg: rgba(0, 0, 0, 0.05);
-  --bs-table-active-color: #607080;
+  --bs-table-active-color: #454b54;
   --bs-table-active-bg: rgba(0, 0, 0, 0.1);
-  --bs-table-hover-color: #607080;
+  --bs-table-hover-color: #454b54;
   --bs-table-hover-bg: rgba(0, 0, 0, 0.075);
   width: 100%;
   margin-bottom: 1rem;
@@ -1945,7 +1945,7 @@ progress {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #607080;
+  color: #454b54;
   background-color: #fff;
   background-clip: padding-box;
   border: 1px solid #dce7f1;
@@ -1965,7 +1965,7 @@ progress {
   cursor: pointer;
 }
 .form-control:focus {
-  color: #607080;
+  color: #454b54;
   background-color: #fff;
   border-color: #84b4ed;
   outline: 0;
@@ -1986,7 +1986,7 @@ progress {
   padding: 0.375rem 0.75rem;
   margin: -0.375rem -0.75rem;
   margin-inline-end: 0.75rem;
-  color: #607080;
+  color: #454b54;
   background-color: #e6eef5;
   pointer-events: none;
   border-color: inherit;
@@ -2010,7 +2010,7 @@ progress {
   padding: 0.375rem 0;
   margin-bottom: 0;
   line-height: 1.5;
-  color: #607080;
+  color: #454b54;
   background-color: transparent;
   border: solid transparent;
   border-width: 1px 0;
@@ -2082,7 +2082,7 @@ textarea.form-control-lg {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #607080;
+  color: #454b54;
   background-color: #fff;
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3e%3c/svg%3e");
   background-repeat: no-repeat;
@@ -2113,7 +2113,7 @@ textarea.form-control-lg {
 }
 .form-select:-moz-focusring {
   color: transparent;
-  text-shadow: 0 0 0 #607080;
+  text-shadow: 0 0 0 #454b54;
 }
 .form-select-sm {
   padding-top: 0.25rem;
@@ -2651,7 +2651,7 @@ textarea.form-control-lg {
   --bs-btn-font-size: 1rem;
   --bs-btn-font-weight: 400;
   --bs-btn-line-height: 1.5;
-  --bs-btn-color: #607080;
+  --bs-btn-color: #454b54;
   --bs-btn-bg: transparent;
   --bs-btn-border-width: 1px;
   --bs-btn-border-color: transparent;
@@ -3073,7 +3073,7 @@ textarea.form-control-lg {
   --bs-dropdown-padding-y: 0.5rem;
   --bs-dropdown-spacer: 0.125rem;
   --bs-dropdown-font-size: 1rem;
-  --bs-dropdown-color: #607080;
+  --bs-dropdown-color: #454b54;
   --bs-dropdown-bg: #fff;
   --bs-dropdown-border-color: rgba(0, 0, 0, 0.15);
   --bs-dropdown-border-radius: 0.25rem;
@@ -4132,7 +4132,7 @@ textarea.form-control-lg {
   }
 }
 .accordion {
-  --bs-accordion-color: #607080;
+  --bs-accordion-color: #454b54;
   --bs-accordion-bg: #fff;
   --bs-accordion-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, border-radius 0.15s ease;
   --bs-accordion-border-color: var(--bs-border-color);
@@ -4141,9 +4141,9 @@ textarea.form-control-lg {
   --bs-accordion-inner-border-radius: calc(0.45rem - 1px);
   --bs-accordion-btn-padding-x: 1.25rem;
   --bs-accordion-btn-padding-y: 1rem;
-  --bs-accordion-btn-color: #607080;
+  --bs-accordion-btn-color: #454b54;
   --bs-accordion-btn-bg: var(--bs-accordion-bg);
-  --bs-accordion-btn-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23607080'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+  --bs-accordion-btn-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23454b54'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
   --bs-accordion-btn-icon-width: 1.25rem;
   --bs-accordion-btn-icon-transform: rotate(-180deg);
   --bs-accordion-btn-icon-transition: transform 0.2s ease-in-out;
@@ -4561,7 +4561,7 @@ textarea.form-control-lg {
   --bs-list-group-action-color: #495057;
   --bs-list-group-action-hover-color: #495057;
   --bs-list-group-action-hover-bg: #f8f9fa;
-  --bs-list-group-action-active-color: #607080;
+  --bs-list-group-action-active-color: #454b54;
   --bs-list-group-action-active-bg: #e9ecef;
   --bs-list-group-disabled-color: #6c757d;
   --bs-list-group-disabled-bg: #fff;
@@ -5374,7 +5374,7 @@ textarea.form-control-lg {
   --bs-popover-header-bg: #f0f0f0;
   --bs-popover-body-padding-x: 1rem;
   --bs-popover-body-padding-y: 1rem;
-  --bs-popover-body-color: #607080;
+  --bs-popover-body-color: #454b54;
   --bs-popover-arrow-width: 1rem;
   --bs-popover-arrow-height: 0.5rem;
   --bs-popover-arrow-border: var(--bs-popover-border-color);
@@ -16791,7 +16791,7 @@ body .bi::before, [class^=bi-]::before, [class*=" bi-"]::before {
 }
 .choices__input {
   background-color: #fff !important;
-  color: #607080;
+  color: #454b54;
 }
 .choices__list {
   background-color: #fff;
@@ -17129,7 +17129,7 @@ body .bi::before, [class^=bi-]::before, [class*=" bi-"]::before {
   margin-bottom: 0.4rem;
 }
 .navbar-top .notification-item a {
-  color: #607080;
+  color: #454b54;
 }
 .navbar-top .notification-item p {
   margin-bottom: 0;
