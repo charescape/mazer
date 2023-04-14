@@ -1,0 +1,36 @@
+name: redist
+
+on:
+  push:
+    branches-ignore:
+      - "main"
+
+  pull_request:
+    branches-ignore:
+      - "main"
+
+jobs:
+  npm-run-dist:
+    if: "!contains(github.event.head_commit.message, 'skip ci')"
+
+    runs-on: ubuntu-latest
+
+    permissions:
+      # Give the default GITHUB_TOKEN write permission to commit and push the
+      # added or changed files to the repository.
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          ref: ${{ github.head_ref }}
+
+      - run: git status
+
+      - run: npm ci
+
+      - run: npm run dist
+
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: redist
