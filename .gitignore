@@ -3,9 +3,7 @@
 /.DS_Store
 /node_modules/
 
-/dist/
 /dist.zip
-/prebuild/
 /prebuild.zip
 
 .yarn/*
