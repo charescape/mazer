@@ -88,7 +88,8 @@ const copyModules = Object.keys(modulesToCopy).map(moduleName => {
 build({
     configFile: false,
     build: {
-      minify: isProd,
+      cssMinify: isProd,
+      minify: isProd ? 'esbuild' : false,
         emptyOutDir: false,
         outDir: resolve(__dirname, `${outDir0}/assets/compiled/js`),
         lib: {
@@ -151,6 +152,8 @@ export default defineConfig((env) => ({
         }
     },
     build: {
+      cssMinify: isProd,
+      minify: isProd ? 'esbuild' : false,
         emptyOutDir: false,
         manifest: true,
         target: "chrome58",
