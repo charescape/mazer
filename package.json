@@ -87,7 +87,7 @@
     "release-it": "^15.5.1",
     "resolve-url-loader": "^5.0.0",
     "sass": "^1.62.0",
-    "sass-loader": "^13.2.0",
+    "sass-loader": "^13.3.0",
     "vite": "^4.2.1",
     "vite-plugin-nunjucks": "^0.1.10",
     "vite-plugin-static-copy": "^0.13.1"
