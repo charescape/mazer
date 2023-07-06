@@ -83,7 +83,7 @@
     "browser-sync-webpack-plugin": "^2.3.0",
     "cross-env": "^7.0.3",
     "postcss": "^8.4.20",
-    "prettier": "^2.8.1",
+    "prettier": "^3.0.0",
     "release-it": "^15.5.1",
     "resolve-url-loader": "^5.0.0",
     "sass": "^1.62.0",
